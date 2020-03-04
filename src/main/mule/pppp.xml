@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="ppppFlow" doc:id="822c92d1-6b34-4a29-a131-8e2e148e3746" >
 		<http:listener doc:name="Listener" doc:id="34c68d6c-7cf5-4462-b96b-f064b6127c68" config-ref="HTTP_Listener_config" path="/sancho"/>
 		<set-payload value="payload" doc:name="Set Payload" doc:id="da447bce-4491-4813-aaf2-ccdf269e1e49" />
+		<logger level="INFO" doc:name="Logger" doc:id="b4b4d59e-3b07-43ab-ab07-fd5dba101bac" message="#[payload]"/>
 	</flow>
 </mule>
