@@ -27,8 +27,8 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-		          <username>sareda18252</username> 
-		          <password>s182596samiS</password> 
+		          
+		          <server>mypassword</server>
 		          <applicationName>Sancho-jenkins</applicationName>
 		          <environment>Sandbox</environment>
 		          <workerType>Micro</workerType>
